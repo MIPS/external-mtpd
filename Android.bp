@@ -23,6 +23,7 @@ cc_binary {
         "libcrypto",
         "libcutils",
         "liblog",
+        "libnetd_client",
     ],
     cflags: ["-DANDROID_CHANGES"],
     init_rc: ["mtpd.rc"],
